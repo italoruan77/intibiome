@@ -136,6 +136,11 @@ color: var(--color-549bd1);
 }
 
 
+#menu .drop i{
+    margin-left: 8px;
+}
+
+
 
 .dropdown-content {
     display: none;
@@ -383,8 +388,15 @@ width: 100%;
 }
 
 .banner-product-mobile{
+    width: 100%;
     display: none;
 }
+
+.banner-product-mobile img{
+    width: 100%;
+}
+
+
 
 .blog{
     display: flex;
@@ -581,8 +593,27 @@ gap: .5rem;
  
 
 
+    .banner-hero{
+        display: none;
+        max-height: 550px;
+    }
+    
+    .banner-hero img{
+        width: 100%;
+    }
+    
+    .banner-hero-mobile{
+        display: flex;
+    }
+    
+    .banner-product{
+        display: none;
+    }
 
-   
+    .banner-product-mobile{
+        display: flex;
+        margin: 40px 0;
+    }
 
 
 
